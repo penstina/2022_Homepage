@@ -1,0 +1,385 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    * {
+        font-family: red hat text;
+    }
+
+    .fullwidth {
+        width: 100%;
+        display: flex;
+    }
+
+    .hero {
+        background-color: #000256;
+        color: white;
+    }
+
+    .sixty {
+        padding: 2%;
+        width: 60%;
+    }
+
+    .fifty {
+        width: 50%;
+    }
+
+    .fifty_ {
+        width: 50%;
+    }
+
+    .forty {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 37px;
+        font-size: 37px;
+        font-weight: 200;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .hero-p {
+        width: 60%;
+    }
+
+    .shopThese {
+        background-color: #EBEFF8;
+        color: #000256;
+        padding: 1%;
+        justify-content: end;
+    }
+
+    .showMeThese {
+        width: 40%;
+        text-align: center;
+    }
+
+    .bagSpotlight {
+        background-image: url(Group%209.png);
+        background-size: cover;
+        background-position: center;
+        padding: 5%;
+    }
+
+    .shopWhatYouSee:hover {
+        transform: perspective: (1px) translate(0);
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
+
+    .drinkwareSpotlight {
+        background-image: url(Group%2010.png);
+        background-size: cover;
+        background-position: center;
+        padding: 5%;
+    }
+
+    .spotlightText {
+        width: 50%;
+
+    }
+
+    .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ();
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+        -webkit-transition-property: transform;
+        transition-property: transform
+    }
+
+    .hvr-grow:active,
+    .hvr-grow:focus,
+    .hvr-grow:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+
+    .halfBlue {
+
+        background: linear-gradient(180deg, #000256 50%, rgba(0, 2, 86, 0) 50%);
+    }
+
+    .boxLink {
+        width: 100%;
+        text-align: end;
+        justify-content: flex-end;
+        position: relative;
+        float: right;
+        padding: 5%;
+        font-weight: 600;
+        color: #000256;
+    }
+
+    .main-button {
+        background-color: white;
+        color: #000256;
+        font-size: 22px;
+        border-radius: 10px;
+        padding: 2% 5%;
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .main-button {
+        background-color: white;
+        color: #000256;
+        font-size: 22px;
+        border-radius: 10px;
+        padding: 2% 5%;
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .shadow {
+        box-shadow: 0px 0px 15.2844px rgba(0, 0, 0, 0.17);
+    }
+
+    .penCats {
+        margin: 2%;
+        text-align: center;
+        font-weight: 500;
+        color: black;
+    }
+
+    .penCats:after {
+
+        color: black;
+    }
+
+    #shop-drawer {
+        justify-content: center;
+    }
+
+    @media (max-width:900px) {
+        .fullwidth {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            width: 100%;
+        }
+
+        .sixty {
+            width: 100%;
+        }
+
+        .fifty {
+            width: 100%;
+        }
+
+        .fifty_ {
+            width: 50%;
+        }
+
+
+        .forty {
+            width: 100%;
+        }
+
+        .quarter {
+            width: 40%;
+        }
+
+        .hero-p {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 37px;
+            font-weight: 200;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        .shopThese {
+            background-color: #EBEFF8;
+            color: #000256;
+            padding: 1%;
+            justify-content: center;
+        }
+
+        .spotlightText {
+            width: 50%;
+            font-size: 26px;
+        }
+
+        .bagSpotlight,
+        .drinkwareSpotlight {
+            padding: 12% 5%;
+        }
+
+        .main-button {
+            width: 100% !important;
+            text-align: center;
+        }
+
+        .halfBlue {
+
+            background: white;
+        }
+
+        .categories {
+            height: 900px !important;
+        }
+
+        #shop-drawer {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+</style>
+
+<div class="fullwidth">
+    <div class="sixty hero" style="padding-left:5%;">
+        <h1>
+            Market your business with pens, bags, drinkware <span><img src="Frame.png"></span> more.
+        </h1>
+        <p class="hero-p">
+            We help businesses grow their customer base with custom branded promotional products
+        </p>
+        <br>
+        <a class="main-button">Shop Best Sellers →</a>
+    </div>
+    <div class="forty">
+        <img src="image%203.png">
+    </div>
+</div>
+
+<div class="fullwidth shopThese">
+
+    <div style=""><img class="hvr-grow" onclick="showDrawer()" width="100px" style="float:right; position:absolute; z-index:3; right:50px; top: 300px; cursor: pointer" src="https://natpen.scene7.com/is//image/NatPenVegas/shop-these?qlt=100&fmt=png-alpha">
+    </div>
+
+    <!-- /Centered textarea -->
+    <style>
+        .product-tag {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-around;
+            width: auto;
+            vertical-align: middle;
+            position: relative;
+            color: black;
+            background-color: #fff;
+            padding: 1%;
+            margin: .5%;
+            border-radius: 12px;
+        }
+
+        .product-tag img {
+            width: 10%;
+            height: auto;
+            border-radius: 4px;
+            margin-right: 1%;
+        }
+
+        .shop-button {
+            background-color: #1b208f;
+            border-radius: 10px;
+            color: white;
+            width: auto;
+            padding: 2% 5%;
+            float: right;
+            border: 0px;
+        }
+
+        #shop-drawer {
+            display: none;
+            animation: fadeIn 1s;
+        }
+
+    </style>
+    <script>
+        function showDrawer() {
+            var drawer = document.getElementById("shop-drawer");
+            if (drawer.style.display === "none") {
+                drawer.style.display = "flex";
+                drawer.style.animation = "3s infinite alternate slidein";
+            } else {
+                drawer.style.display = "none";
+            }
+        }
+
+    </script>
+
+    <div id="shop-drawer" style="width: 100%;">
+        <div class="product-tag"><img src="https://cdn-img-compress.api.pens.com/compress-img?imageUrl=https%3A%2F%2Fuploads.documents.cimpress.io%2Fv1%2Fuploads%2Fecc6b697-7e29-4eb4-b765-bd58d156c7af~122%2Foriginal%3Ftenant%3Dnational-pen&width=160&height=160">Design Wrap Colorama Pen<button class="shop-button hvr-grow">Shop Now</button></div>
+        <div class="product-tag"><img src="https://cdn-img-compress.api.pens.com/compress-img?imageUrl=https%3A%2F%2Fassets.documents.cimpress.io%2Fv2%2Ffulfillers%2F123815948%2Fcompositions%2F24a46fd7-a667-4dd7-9dfe-b6b77adc7434%2Fassets%2Ffb7f4e88-11bd-4f62-b55b-7318dc42fa1a&width=160&height=160">12oz Full Color Ceramic Mug<button class="shop-button hvr-grow">Shop Now</button></div>
+        <div class="product-tag"><img src="https://cdn-img-compress.api.pens.com/compress-img?imageUrl=https%3A%2F%2Fassets.documents.cimpress.io%2Fv2%2Ffulfillers%2F123815948%2Fcompositions%2Ff80c03d9-9ce8-47bb-bd1a-b40b340198ab%2Fassets%2F194bd7ec-0184-4d22-9c71-30322500381e&width=160&height=160">Tote Bag With Patriotic Flag <button class="shop-button hvr-grow">Shop Now</button></div>
+    </div>
+</div>
+
+<div class="fullwidth">
+    <div class="fifty bagSpotlight">
+        <h2 class="spotlightText">Create moving billboards with custom totes</h2><a class="main-button shadow hvr-grow">Shop Totes →</a>
+    </div>
+    <div class="fifty drinkwareSpotlight">
+        <h2 class="spotlightText">Keep your name within reach with branded tumblers</h2><a class="main-button shadow hvr-grow">Shop Tumblers →</a>
+    </div>
+</div>
+<div class="fullwidth" style="background-color: #000256;justify-content: center">
+    <h2 style="text-align: center; color: white;">Just here for pens? Shop our top styles.</h2>
+</div>
+<div class="fullwidth halfBlue" style="padding: 1%;justify-content: center;">
+
+    <div class="quarter penCats hvr-grow"><img style="width:100%;" src="Ellipse%201.png"><br><br><a href="" class="">Gel Pens →</a></div>
+    <div class="quarter penCats hvr-grow"><img style="width:100%;" src="Ellipse%202.png"><br><br><a href="">Stylus Pens →</a></div>
+    <div class="quarter penCats hvr-grow"><img style="width:100%;" src="Ellipse%203.png"><br><br><a href="">Engraved Pens →</a></div>
+    <div class="quarter penCats hvr-grow"><img style="width:100%;" src="Ellipse%204.png"><br><br><a href="">Full Color Pens →</a></div>
+</div>
+
+<div class="fullwidth categories" style="height:500px; flex-wrap: wrap;">
+    <div class="fifty" style="background-image:url(Rectangle%2026.png); background-size:cover;">
+        <a class="boxLink hvr-grow" href="">Design Wrap Pens →</a>
+    </div>
+    <div class="fifty">
+        <div class="fullwidth" style="height:250px">
+            <div class="fifty_" style="background-image:url(Rectangle%2027.png); background-size:cover;">
+                <a class="boxLink hvr-grow" href="">Gift Sets →</a>
+            </div>
+            <div class="fifty_" style="background-image:url(Rectangle%2028.png); background-size:cover;">
+                <a class="boxLink hvr-grow" href="">Stationery →</a>
+
+            </div>
+        </div>
+        <div class="fullwidth" style="height:250px">
+            <div class="fifty_" style="background-image:url(Rectangle%2029.png); background-size:cover;">
+                <a class="boxLink hvr-grow" href="" style="color:white;">Tech →</a>
+
+            </div>
+            <div class="fifty_" style="background-image:url(Rectangle%2030.png); background-size:cover;">
+                <a class="boxLink hvr-grow" href="">Keychains →</a>
+
+            </div>
+        </div>
+    </div>
+</div>
